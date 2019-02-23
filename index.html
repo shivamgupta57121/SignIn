@@ -1,0 +1,118 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>
+          Social Networkx  
+        </title>
+    </head>
+    <body>
+        
+        <video autoplay muted loop id="myVideo">
+                    <source src="lib/video/grasspan.mp4" type="video/mp4">
+        </video> 
+
+
+        <header class="content1">
+            <nav class="topnav-left">
+                <div class="row">
+                    <img src="lib/images/a1.png" alt="Social Networks logo" class="logo">
+                    <ul class="company">
+                        <li>  Social Networkx</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="topnav">
+                <div class="login-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Username" name="username" required>
+                      <input type="text" placeholder="Password" name="psw" required>
+                      <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+            
+        </header>
+
+            
+        <section class="about">
+            <div class="a">
+            <h3 class="ab">ABOUT US</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            </div>
+        </section>
+            
+        <section class="form">
+
+            <form id="regForm" action="">
+
+                <h1 class="sign">SIGN UP</h1>
+                <p class="sign">Please fill in the details to Create an account</p>
+
+                <!-- One "tab" for each step in the form: -->
+                <div class="tab">Name<span class="req">*</span>:
+                <p><input placeholder="First name" oninput="this.className = ''"></p>
+                <p><input placeholder="Last name" oninput="this.className = ''"></p>
+                </div>
+
+                <div class="tab">Contact Info:
+                <p><input type="email" placeholder="E-mail*" oninput="this.className = ''"></p>
+                <p><input type="number" placeholder="Phone" oninput="this.className = ''"></p>
+                </div>
+
+                <div class="tab">Date of Birth<span class="req">*</span>:
+                <p><input type="number" min="1" max="31" placeholder="Date(dd)" oninput="this.className = ''"></p>
+                <p><input type="number" min="1" max="12" placeholder="Month(mm)" oninput="this.className = ''"></p>
+                <p><input type="number" min="1" max="2100" placeholder="Year(yyyy)" oninput="this.className = ''"></p>
+                </div>
+
+                <div class="tab">Login Information<span class="req">*</span>:
+                <p><input placeholder="Username" oninput="this.className = ''"></p>
+                <p><input type="password" placeholder="Password"  oninput="this.className = ''"></p>
+                <p><input type="password" placeholder="Confirm Password" oninput="this.className = ''"></p>
+                </div>
+
+                <div style="overflow:auto;">
+                <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+                </div>
+
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                </div>
+
+            </form>
+
+        </section>
+        
+        
+        <footer class="content3">
+            <div class="row">
+                <p>
+                    Copyright &copy; 2019 by Social Networkx. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="lib/js/jquery.waypoints.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,314 @@
+/* ----------------------------------------------- */
+/* REUSABE */
+/* ----------------------------------------------- */
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* color:#6666ff; */
+}
+
+/* ----------------------------------------------- */
+/* BASIC COMPONENTS */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+h2,
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* ----------------------------------------------- */
+/* header */
+/* ----------------------------------------------- */
+header{
+    background-color: #333;
+    padding-bottom: 20px;
+   
+}
+/* logo */
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+/* company */
+.company{
+    list-style: none;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+/* Top nav left */
+.topnav-left{
+    float: left;
+    display: block;
+    width:50%;
+}
+
+/* Style the navbar */
+.topnav {
+    overflow: hidden;
+    padding: 40px;
+  }
+
+  /* Style the input container */
+.topnav .login-container {
+    float: right;
+  }
+  
+  /* Style the input field inside the navbar */
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    color: black;
+    border: none;
+    width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+  }
+  
+button{
+    margin-left: 3px;
+    color: black;
+}
+
+  /* Style the button inside the input container */
+  .topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background: green;
+  }
+
+
+/* -------------------- */
+/* ABOUT US */
+/* -------------------- */
+
+.about{
+margin: 20px 30px;
+width:45%;
+text-align: center;
+opacity: 0.6;
+color: white;
+display: inline-block;
+overflow: hidden;
+}
+
+.a{
+    
+  margin: 80px 10%;
+  padding: 5%;
+  width: 80%;
+}
+
+
+
+
+/* -------------------- */
+/* SIGN UP */
+/* -------------------- */
+.form{
+    margin: 20px;
+    width:45%;
+    display: inline-block; 
+}
+
+
+
+  /* Style the form */
+#regForm {
+  background-color: #ffffff;
+  opacity : 0.6;
+  margin: 80px 10%;
+
+  padding: 5%;
+  width: 80%;
+  display: inline-block;
+}
+
+.req{
+    color: red;
+}
+
+.sign{
+    text-align: center;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  /* font-size: 17px; */
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+
+
+
+/* -------------------- */
+/* FOOTER */
+/* -------------------- */
+
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+   
+}
+
+
+
+footer p{
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+/*video*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+
+  .content1 {
+    /* top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    background-color: #6666ff; */
+    opacity: 0.6;
+    color:rgba(0,0,0,0.6)
+  }
+
+ 
+
+  .content3 {
+    opacity: 0.6;
+    color:rgba(0,0,0,0.6)
+  }
+
+
+
+
+/* -------------------- */
+/* LOGIN PAGE */
+/* -------------------- */
+
+  #logForm {
+    background-color: #ffffff;
+    opacity : 0.6;
+    margin: 80px 20%;
+    padding: 5%;
+    width: 60%;
+    display: inline-block;
+  }
+
+
+.content4{
+    /* bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    position: fixed; */
+    
+    opacity: 0.6;
+    color:rgba(0,0,0,0.6)
+}
+
+button:hover{
+    background-color: green;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+
+#chk input{
+    width:2%;
+}
